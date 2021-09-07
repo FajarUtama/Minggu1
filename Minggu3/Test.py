@@ -1,0 +1,1 @@
+print("Hayooo ngapain ituu...")
