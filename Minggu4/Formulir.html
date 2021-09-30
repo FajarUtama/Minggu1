@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Formulir Pengisian</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="StyleFormulir.css">
+</head>
+<body background="https://careers.gmanetwork.com/img/site-background.png">
+
+<div class="header">
+  <h1> <font face="Brush Script MT" size="30">Formulir Pengisian</font></h1>
+  <font face="Edwardian Script ITC" size="5" align="center"><p><b>Selamat Datang, Silahkan Isi Formulir Dibawah Ini<b></p></font>
+</div>
+<br>
+<br>
+<div class="container">
+<br>
+<h2>Formulir Pengisian</h2>
+
+<form action="proses.php" method="POST">
+	<b>Nama Lengkap : </b><br>
+<input type="text" name="nama_lengkap" size="40"><br><br>
+	<b>Jenis Kelamin : </b><br>
+	<input type="radio" name="jenis_kelamin" value="L"> Laki-Laki  <input type="radio" name="jenis_kelamin" value="P"> Perempuan<br><br>
+	<b>Alamat : </b><br>
+	<input type="text" name="alamat" size="40"><br><br>
+	<b>Email : </b><br>
+	<input type="email" name="email" size="40"><br><br>
+	<b>Aktif Pada Sosial Media : </b><br>
+	<input type="checkbox" name="facebook" value="Ya"> Facebook
+	<input type="checkbox" name="twitter" value="Ya"> Twitter
+	<input type="checkbox" name="instagram" value="Ya"> Instagram
+	<input type="checkbox" name="path" value="Ya"> Path<br><br>
+	<b>Status Pekerjaan : </b><br>
+	<select name="info">
+		<option selected="select">== Pilih ==</option>
+		<option value="web_udinus">Mahasiswa</option>
+		<option value="surat_kabar">Bekerja</option>
+		<option value="teman_kerabat">Dalam Pelatihan</option>
+		<option value="browsing_internet">Pensiun</option>
+	</select><br><br>
+	<b>Pesan : </b><br>
+	<textarea name="pesan" cols="59" rows="5"></textarea><br><br>
+	<button type="submit" name="submit" value="submit"><font face="Times New Roman">Submit</font></button><br><br>
+	<input type="reset" value="reset">
+
+	<br><br><br><br>
+</form>
+
+</div>
+
+</body>
+</html>
