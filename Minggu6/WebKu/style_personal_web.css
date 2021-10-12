@@ -1,0 +1,120 @@
+* {  box-sizing: border-box;
+}
+.header {
+  text-align: center;
+  margin-bottom: 30px;
+  margin-top: 30px;
+  margin-left: 30px;
+  margin-right: 30px;
+  border-bottom: 3px solid #2979ff;
+  width: 800px;
+  margin: auto;
+}
+
+body {
+  margin: 0;
+}
+  
+.container{
+  margin: auto;
+  padding: 0px 30px;
+  width: 970px;
+  height: auto;
+  background-color: rgba(255,255,245,.6);  
+  backdrop-filter: blur(20px);
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(41,121,255,.5);
+}  
+
+.container form input{
+	border: none;
+	padding: 5px;
+    background-color: transparent;
+    border-bottom: 2px solid #2979ff;
+    color: black;
+	font-family: Times New Roman;
+}
+.container form textarea{
+	border: 2px solid #2979ff;
+	border-radius: 3px;
+    background-color: transparent;
+    color: black;
+	font-family: Times New Roman;
+}
+
+.container form button{
+    width: 100%;
+	padding: 8px 0;
+    border: none;
+	border-radius: 5px;
+    background-color:#2979ff;
+	font-size: 18px;
+    color: #fff;
+}
+  
+table {
+  border: 2px solid #2979ff;
+  border-collapse:collapse;
+  width: 100%;
+  font-size: 14px;
+}
+  
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: red;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
